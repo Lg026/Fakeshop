@@ -1,0 +1,122 @@
+.about {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    height: 10rem;
+    overflow-x: hidden;
+    color: white;
+    text-align: center;
+}
+.title {
+    padding-top: 5.5rem;
+}
+
+.desc {
+    color: white;
+    width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p {
+    padding-top: 6rem;
+}
+
+@media (min-width: 2560px) {
+    .title {
+        padding-top: 6rem;
+    }
+
+    .desc {
+        font-size: 2rem;
+        width: 70%;
+        padding-top: 12rem;
+    }
+
+    .p2 {
+        padding-top: 20rem;
+    }
+
+}
+
+@media (min-width: 1441px) and (max-width: 2559px) {
+    .about {
+        height: 8rem;
+    }
+
+    .title {
+        padding-top: 4.5rem;
+    }
+
+    .desc {
+        min-width: 80%;
+        font-size: 1.5rem;
+
+    }
+
+    .p1 {
+        padding-top: 10%;
+    }
+
+    .p2 {
+        padding-top: 15%;
+    }
+
+    
+}
+
+@media (max-width: 1440px) {
+    .about {
+        height: 7.5rem;
+    }
+
+    .title {
+        padding-top: 4.2rem;
+        font-size: 1.8rem
+    }
+
+    .p1 {
+        padding-top: 13%;
+    }
+
+    .p2 {
+        padding-top: 25%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .about {
+        height: 7rem;
+        font-size: 1rem;
+    }
+
+    .title {
+        padding-top: 4.5rem;
+        font-size: 1.5rem;
+    }
+
+    .desc {
+        max-width: 80%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .desc {
+        max-width: 80%;
+    }
+
+    .p {
+        padding-top: 4.5rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .p {
+        padding-top: 4rem;
+        font-size: 0.9rem;
+    }
+
+}

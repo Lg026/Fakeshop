@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/http//:Lg026.github.io/Fakeshop/static/css/main.f4fa2499.css",
-    "main.js": "/http//:Lg026.github.io/Fakeshop/static/js/main.c0212fe4.js",
-    "static/js/787.625e8634.chunk.js": "/http//:Lg026.github.io/Fakeshop/static/js/787.625e8634.chunk.js",
-    "index.html": "/http//:Lg026.github.io/Fakeshop/index.html",
-    "main.f4fa2499.css.map": "/http//:Lg026.github.io/Fakeshop/static/css/main.f4fa2499.css.map",
-    "main.c0212fe4.js.map": "/http//:Lg026.github.io/Fakeshop/static/js/main.c0212fe4.js.map",
-    "787.625e8634.chunk.js.map": "/http//:Lg026.github.io/Fakeshop/static/js/787.625e8634.chunk.js.map"
+    "main.css": "/fakeshop/static/css/main.f4fa2499.css",
+    "main.js": "/fakeshop/static/js/main.9aaaa920.js",
+    "static/js/787.625e8634.chunk.js": "/fakeshop/static/js/787.625e8634.chunk.js",
+    "index.html": "/fakeshop/index.html",
+    "main.f4fa2499.css.map": "/fakeshop/static/css/main.f4fa2499.css.map",
+    "main.9aaaa920.js.map": "/fakeshop/static/js/main.9aaaa920.js.map",
+    "787.625e8634.chunk.js.map": "/fakeshop/static/js/787.625e8634.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4fa2499.css",
-    "static/js/main.c0212fe4.js"
+    "static/js/main.9aaaa920.js"
   ]
 }

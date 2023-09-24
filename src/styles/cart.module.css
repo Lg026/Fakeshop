@@ -196,7 +196,7 @@
 
 @media (max-width: 425px) {
     .cartGrid {
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
 
     .total {

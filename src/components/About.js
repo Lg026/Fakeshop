@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import aboutStyles from '../styles/about.module.css'
 

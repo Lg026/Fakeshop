@@ -14,6 +14,10 @@ export const Products = () => {
 
     useEffect(() => {
     window.scrollTo(0, 0);
+    const script = document.createElement('script');
+    script.src = '//code.tidio.co/1mvemygg3e5kodta6l2arucgo2rsgyjz.js';
+    script.async = true;
+    document.body.appendChild(script);
   }, []);
 
 console.log(cart)

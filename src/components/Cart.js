@@ -27,9 +27,9 @@ export const Cart = () => {
 <div className={cartStyles.cartGrid}>
   {cart.length > 0 ? (
     cart.map((item) => (
-      <article onClick={() => handleModal(item)} className={cartStyles.cartCard} key={item.id}>
+      <article className={cartStyles.cartCard} key={item.id}>
         <button className={cartStyles.xBtn} onClick={() => clearCart(item.id)}>x</button>
-        <img className={cartStyles.cartImg} src={item.image} alt={item.title} />
+        <img onClick={() => handleModal(item)} className={cartStyles.cartImg} src={item.image} alt={item.title} />
         <h2 className={cartStyles.cartTitle}>{item.title}</h2>
         <div className={cartStyles.btnContainer}>
           <button className={cartStyles.btns} onClick={() => subtractCart(item.id)}>-1</button>

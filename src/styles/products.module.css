@@ -9,6 +9,13 @@
     justify-items: center;
 }
 
+.checkmark {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.2rem;
+}
+
 .nav {
     display: flex;
     justify-content: space-around;
@@ -40,6 +47,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
     width: 100%;
     background-color: white;
     border-radius: 0.2rem;
@@ -130,6 +138,10 @@
     .card {
         max-width: 25rem;
         height: 30rem;
+    }
+
+    .checkmark {
+        font-size: 2rem;
     }
 
     .nav {

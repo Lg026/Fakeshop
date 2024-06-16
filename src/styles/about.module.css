@@ -64,15 +64,6 @@
 }
 
 @media (max-width: 1440px) {
-    .about {
-        height: 7.5rem;
-    }
-
-    .title {
-        padding-top: 4.2rem;
-        font-size: 1.8rem
-    }
-
     .p1 {
         padding-top: 13%;
     }

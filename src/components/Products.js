@@ -21,7 +21,7 @@ console.log(cart)
 
   return (
     <>
-  
+
   <ul className={productStyles.nav}>
     <li><Link onClick={() => setCategory("men's clothing")} className={category === "men's clothing" ? productStyles.active : productStyles.a}>Men's</Link></li>
     <li><Link onClick={() => setCategory('jewelery')} className={category === 'jewelery' ? productStyles.active : productStyles.a}>Jewelry</Link></li>
@@ -32,6 +32,7 @@ console.log(cart)
       <div className={productStyles.grid}>
         {filteredProducts.map(product => (
         <article className={productStyles.card}>
+          {cart.find(item => item.id === product.id) && <span className={productStyles.checkmark}>✔️</span>}
           <img onClick={() => {setItemDesc(product); setOpenModal(true)}} className={productStyles.img} src={product.image} alt={product.title}></img>
           <h2 className={productStyles.title}>{product.title}</h2>
           <h3 className={productStyles.price}>{`$${product.price.toFixed(2)}`}</h3>
